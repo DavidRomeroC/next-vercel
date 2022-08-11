@@ -18,6 +18,7 @@ const menuItems = [
         text: 'Pricing',
         href: '/pricing'
     },
+    
 ];
 
 export const Navbar = () => {
