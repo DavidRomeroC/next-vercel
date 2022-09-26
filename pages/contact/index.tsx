@@ -3,9 +3,9 @@ import { MainLayout } from '../../components/layouts/MainLayout'
 
 export default function ContactPage() {
 
-    const david = crypto.randomUUID();
+    // const david = crypto.randomUUID();
 
-    console.log(david);
+    // console.log(david);
 
     return (
         <MainLayout title="contact">
