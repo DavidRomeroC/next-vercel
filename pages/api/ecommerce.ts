@@ -5,5 +5,5 @@ import { ecommerceData } from "../../src";
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
-    res.status(200).json(ecommerceData)
+    res.status(200).send(ecommerceData)
 }
